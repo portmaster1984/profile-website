@@ -1,17 +1,12 @@
 body {
   display:grid;
 
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: black;
-  color:white;
-  height: 100vh;
+ 
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.grid-item{
-  
-}
+
 
 .grid-1{
   order:0;
@@ -52,10 +47,3 @@ a {
   text-decoration: none;
 }
 
-@media all and (max-width: 500px){
-  body{
-    min-width:390px;
-    min-height:850px;
-    color:red;
-  }
-}
