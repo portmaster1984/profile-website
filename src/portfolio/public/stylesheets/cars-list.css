@@ -1,0 +1,31 @@
+body{
+    font: 16px "Arial, Lucida Grande", Helvetica,  sans-serif;
+    height: 100vh;
+    margin: 20 auto;
+}
+.description{
+  text-align: center;
+}
+.cars-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.car-item{
+    margin:5px;
+    min-height:60px;
+    border-style:solid;
+    border-color: black;
+    background:brown;
+  }
+
+h1{
+  text-align: center;
+  margin-bottom: 5px;
+}
+@media all and (max-width: 500px){
+    body{
+      min-width:390px;
+      min-height:850px;
+      color:red;
+    }
+  }

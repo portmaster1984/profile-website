@@ -5,10 +5,13 @@ body{
     height: 100vh;
 }
 
+
+
 @media all and (max-width: 500px){
     body{
       min-width:390px;
       min-height:850px;
       color:red;
     }
+    
   }
